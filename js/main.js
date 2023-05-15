@@ -1,3 +1,10 @@
+
+alert("Calcular total de compra");
+
+
+function calcularTotal (){
+
+
 let precioProducto1 = parseInt(prompt("Ingrese el precio del Producto 1:"));
 let precioProducto2 = parseInt(prompt("Ingrese el precio del Producto 2:"));
 let precioProducto3 = parseInt(prompt("Ingrese el precio del Producto 3:"));
@@ -17,9 +24,11 @@ if (precioProducto3) {
 }
 
 
-alert("Tu total es: $" + Total);
-console.log("Tu total es: $" + Total);
+alert("Tu total: $" + Total);
+console.log("Tu total: $" + Total);
 
+}
 
+calcularTotal ();
 
 
